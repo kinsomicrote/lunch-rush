@@ -40,7 +40,7 @@ class Application extends Component {
             <SignIn /> : 
             <div>
               <NewRestaurant />
-                <Restaurants restaurants={restaurants} />
+                <Restaurants restaurants={restaurants} user={currentUser} />
               <CurrentUser user={currentUser} />
             </div>
           }
